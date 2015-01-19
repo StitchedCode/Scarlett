@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ["quote.coffee"]
+=======
+["redis-brain.coffee", "shipit.coffee", "directions.coffee", "heroku-status.coffee"]
+>>>>>>> ee586d007e2bf0de32b3dbb6596a22320534e121

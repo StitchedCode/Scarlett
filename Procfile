@@ -1,1 +1,1 @@
-web: bin/hubot -a slack -n scarlett
+web: bin/hubot --adapter slack -n scarlett
