@@ -1,0 +1,10 @@
+# https://circleci.com/docs/configuration
+
+machine:
+  node:
+    version: 0.12.0
+deployment:
+  production:
+    branch: master
+    commands:
+      - git push git@heroku.com:stitched-scarlett.git $CIRCLE_SHA1:master
