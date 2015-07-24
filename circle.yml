@@ -6,5 +6,5 @@ machine:
 deployment:
   production:
     branch: master
-    commands:
-      - git push git@heroku.com:stitched-scarlett.git $CIRCLE_SHA1:master
+    heroku:
+     appname: stitched-scarlett
